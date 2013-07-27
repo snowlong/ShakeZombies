@@ -6,7 +6,7 @@
     <string name="default_play">Play</string>
     <string name="camera">Camera</string>
     <string name="collection">Collection</string>
-    <string name="movie">Histrory</string>
+    <string name="movie">Story</string>
     <string name="easy">簡単</string>
     <string name="normal">普通</string>
     <string name="hard">難しい</string>
@@ -15,6 +15,9 @@
     <string name="clear">クリア！！</string>
     <string name="title_activity_play">PlayActivity</string>
     <string name="title_activity_clear">ClearActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_appear">AppearActivity</string>
+    <string name="title_activity_collection">CollectionActivity</string>    
+    <string name="title_activity_story">StoryActivity</string>    
     
-
 </resources>

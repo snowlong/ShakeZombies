@@ -24,7 +24,7 @@
         </activity>
         <activity
             android:name="com.example.gameproto1.AppearActivity"
-            android:label="@string/title_activity_play" >
+            android:label="@string/title_activity_appear" >
         </activity>
         <activity
             android:name="com.example.gameproto1.PlayActivity"
@@ -34,6 +34,18 @@
             android:name="com.example.gameproto1.ClearActivity"
             android:label="@string/title_activity_clear" >
         </activity>
-    </application>
+        <activity
+            android:name="com.example.gameproto1.CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>        
+        <activity
+            android:name="com.example.gameproto1.CollectionActivity"
+            android:label="@string/title_activity_collection" >
+        </activity>    
+        <activity
+            android:name="com.example.gameproto1.StoryActivity"
+            android:label="@string/title_activity_collection" >
+        </activity>    
+        </application>
 
 </manifest>

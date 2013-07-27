@@ -39,9 +39,12 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_appear=0x7f030000;
-        public static final int activity_clear=0x7f030001;
-        public static final int activity_openinig=0x7f030002;
-        public static final int activity_play=0x7f030003;
+        public static final int activity_camera=0x7f030001;
+        public static final int activity_clear=0x7f030002;
+        public static final int activity_collection=0x7f030003;
+        public static final int activity_openinig=0x7f030004;
+        public static final int activity_play=0x7f030005;
+        public static final int activity_story=0x7f030006;
     }
     public static final class menu {
         public static final int clear=0x7f070000;
@@ -60,8 +63,12 @@ public final class R {
         public static final int hard=0x7f050008;
         public static final int movie=0x7f050005;
         public static final int normal=0x7f050007;
+        public static final int title_activity_appear=0x7f05000e;
+        public static final int title_activity_camera=0x7f05000d;
         public static final int title_activity_clear=0x7f05000c;
+        public static final int title_activity_collection=0x7f05000f;
         public static final int title_activity_play=0x7f05000b;
+        public static final int title_activity_story=0x7f050010;
     }
     public static final class style {
         /** 

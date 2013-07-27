@@ -17,8 +17,12 @@ public class OpeninigActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_openinig);
         
-        final Button button = (Button)findViewById(R.id.button01);
-        button.setOnTouchListener(new View.OnTouchListener() {
+        final Button button01 = (Button)findViewById(R.id.button01);
+        final Button button02 = (Button)findViewById(R.id.button02);
+        final Button button03 = (Button)findViewById(R.id.button03);
+        final Button button04 = (Button)findViewById(R.id.button04);
+ 
+        button01.setOnTouchListener(new View.OnTouchListener() {
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
 				switch(event.getAction()){
@@ -40,10 +44,34 @@ public class OpeninigActivity extends Activity {
         });
         
         
-        button.setOnClickListener(new OnClickListener(){
+        button01.setOnClickListener(new OnClickListener(){
         	public void onClick(View view) {
         		Log.v("OnClickListener: ", "onClick");
 				Intent intent = new Intent(OpeninigActivity.this, AppearActivity.class);
+				startActivity(intent);
+        	}
+        });
+        
+        button02.setOnClickListener(new OnClickListener(){
+        	public void onClick(View view) {
+        		Log.v("OnClickListener: ", "onClick");
+				Intent intent = new Intent(OpeninigActivity.this, CameraActivity.class);
+				startActivity(intent);
+        	}
+        });
+        
+        button03.setOnClickListener(new OnClickListener(){
+        	public void onClick(View view) {
+        		Log.v("OnClickListener: ", "onClick");
+				Intent intent = new Intent(OpeninigActivity.this, CollectionActivity.class);
+				startActivity(intent);
+        	}
+        });
+        
+        button04.setOnClickListener(new OnClickListener(){
+        	public void onClick(View view) {
+        		Log.v("OnClickListener: ", "onClick");
+				Intent intent = new Intent(OpeninigActivity.this, StoryActivity.class);
 				startActivity(intent);
         	}
         });
